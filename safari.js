@@ -70,7 +70,7 @@ const commentSection = document.querySelector('.comment-section');
  
 
    
-   commentBtn.addEventListener('submit', () => {
+   commentBtn.addEventListener('click', () => {
    
     if (commentSection && commentData) {
         commentSection.innerHTML += `<p>${commentData.body}</p>`;
